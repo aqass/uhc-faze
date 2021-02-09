@@ -13,9 +13,12 @@ public class onRegeneration implements Listener {
 
     @EventHandler
     public void onRegeneration(EntityRegainHealthEvent e) {
-        Player player = null;
 
-        e.setCancelled(player.getActivePotionEffects() != PotionEffectType.REGENERATION);
+        if ( e.getRegainReason().equals(EntityRegainHealthEvent.RegainReason.REGEN)) {
+            e.setCancelled(false);
+        } else {
+            e.setCancelled(true);
+        }
 
     }
 
