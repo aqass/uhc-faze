@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>aqass</groupId>
-    <artifactId>faze-uhc</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>faze</artifactId>
+    <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>Faze Uhc</name>
+    <name>FazeUhc</name>
 
     <properties>
         <java.version>1.8</java.version>

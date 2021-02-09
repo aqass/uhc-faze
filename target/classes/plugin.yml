@@ -1,5 +1,5 @@
-name: Faze Uhc
-version: 1.0-SNAPSHOT
+name: FazeUhc
+version: 1.0
 main: aqass.fazeuhc.FazeUhc
 api-version: 1.16
 authors: [ satook, SepteRR ]

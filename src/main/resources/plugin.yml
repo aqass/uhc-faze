@@ -1,4 +1,4 @@
-name: Faze Uhc
+name: FazeUhc
 version: ${project.version}
 main: aqass.fazeuhc.FazeUhc
 api-version: 1.16
