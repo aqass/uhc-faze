@@ -17,10 +17,8 @@ public class onRegeneration implements Listener {
         if(player.getActivePotionEffects()== PotionEffectType.REGENERATION){
             e.setCancelled(false);
 
-        }
-        if(!(player.getActivePotionEffects()== PotionEffectType.REGENERATION)){
+        } else {
             e.setCancelled(true);
-
         }
 
     }
