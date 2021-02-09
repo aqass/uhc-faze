@@ -12,7 +12,7 @@ public class onRegeneration implements Listener {
 
 
     @EventHandler
-    public void onRegeneration(EntityRegainHealthEvent e) {
+    public void onEntityRegenerationEvent(EntityRegainHealthEvent e) {
 
         if ( e.getRegainReason().equals(EntityRegainHealthEvent.RegainReason.REGEN)) {
             e.setCancelled(false);
