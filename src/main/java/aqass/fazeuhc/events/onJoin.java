@@ -1,19 +1,19 @@
 package aqass.fazeuhc.events;
 
-import org.bukkit.entity.Player;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 
-import static aqass.fazeuhc.scoreboards.playerHp.PlayerHealthScoreboard;
+import static aqass.fazeuhc.scoreboards.mainStats.PlayerMainScoreboard;
+
 
 public class onJoin implements Listener {
+
     @EventHandler
-    public void OnJoin(PlayerJoinEvent e){
-    Player player;
+    public void  OnJoin(PlayerJoinEvent e){
 
-        PlayerHealthScoreboard(e.getPlayer());
-
+            PlayerMainScoreboard(e.getPlayer());
+    }
     }
 
-}

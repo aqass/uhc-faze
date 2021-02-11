@@ -1,6 +1,8 @@
 package aqass.fazeuhc;
 
+
 import aqass.fazeuhc.events.onJoin;
+import aqass.fazeuhc.events.onMove;
 import aqass.fazeuhc.events.onRegeneration;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -11,6 +13,8 @@ public final class FazeUhc extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(new onRegeneration(), this);
         getServer().getPluginManager().registerEvents(new onJoin(), this);
+        getServer().getPluginManager().registerEvents(new onMove(), this);
+
 
         System.out.println("Faze UHC loaded");
 
