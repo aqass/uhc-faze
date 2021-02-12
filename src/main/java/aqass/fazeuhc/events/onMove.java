@@ -7,11 +7,13 @@ import org.bukkit.event.player.PlayerMoveEvent;
 
 import static aqass.fazeuhc.scoreboards.mainStats.*;
 
+
 public class onMove implements Listener {
     @EventHandler
     public static void onPlayerMove(PlayerMoveEvent e){
         Player player = null;
         PlayerMainScoreboard(e.getPlayer());
+
 
 
 
